@@ -5,6 +5,6 @@ package com.lyne.java_original;
  */
 public interface BusinessProcessor {
 
-    public void processBusiness();
+    public void processBusiness(String msg);
 
 }

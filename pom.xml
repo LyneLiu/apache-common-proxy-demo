@@ -16,6 +16,18 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.ctrip.tour.priceengine</groupId>
+      <artifactId>tour-priceengine-inventorychange-client</artifactId>
+      <version>6</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.ctrip.tour.product</groupId>
+      <artifactId>productmeta-api</artifactId>
+      <version>1.0.19</version>
+    </dependency>
+
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>

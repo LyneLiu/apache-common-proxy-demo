@@ -5,8 +5,9 @@ package com.lyne.java_original;
  */
 public class BusinessProcessorImpl implements BusinessProcessor{
 
-    public void processBusiness() {
+    public void processBusiness(String msg) {
         System.out.println(">>>>>>>>>>>执行处理逻辑单元......");
+        System.out.println("processor msg:"+msg);
     }
 
 }

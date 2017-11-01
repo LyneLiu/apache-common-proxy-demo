@@ -1,5 +1,7 @@
 package com.lyne.java_original;
 
+import Tour.PriceEngine.InventoryChange.Message.VBKPackageSchedule;
+
 import java.lang.reflect.Proxy;
 
 /**
@@ -13,7 +15,7 @@ public class BusinessProcessorMain {
 
         BusinessProcessor businessProcessor = (BusinessProcessor) Proxy.newProxyInstance(businessProcessorImpl.getClass().getClassLoader(),businessProcessorImpl.getClass().getInterfaces(),businessProcessorHandler);
 
-        businessProcessor.processBusiness();
+        businessProcessor.processBusiness("test");
     }
 
 }
